@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+  <header>
+    <a href=""><div class="logo">QuizMaster</div></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#">About</a>
+      <a href="#">Quiz</a>
+      <a href="">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Quiz Container -->
+  <main class="container">
+    <h1>Timed Quiz</h1>
+
+    <div id="quiz-box">
+      <div id="question-container"></div>
+      <div class="timer">Time Left: <span id="timer">15</span> seconds</div>
+      <button id="next-btn" class="submit-btn" style="display:none;">Next</button>
+    </div>
+
+    <div id="thank-you" style="display:none; text-align:center;">
+      <h2>🎉 Thank you for submitting the quiz!</h2>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 QuizMaster. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
